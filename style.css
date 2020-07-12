@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Logo, search, buttons positioning */
+#center{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px ;
+}
+
+/* Logo */
+img{
+    display: flex;
+    margin-bottom:20px ; 
+}
+
+
+/* Search Bar */
+#search{
+    width: 450px;
+    border-radius: 10%;
+    height: 30px;
+}
+#search:active{
+    box-shadow: 1px 1px 10px;
+}
+/* Buttons Below Logo */
+#buttons{
+    display: flex;
+    position: relative;
+  margin-right:  125px;
+  margin-left: 125px;
+
+}
+.button{
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, .1);
+    margin-top: 280px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer Links */
+.left,.right{ 
+    display: inline-flex;
+   
+}
+.left{
+    margin-left: 0px;
+}
+.right{
+    display:  inline-flex;
+    margin-left: 800px;
+}
+
+a {
+    text-decoration: none;
+    font-size: medium;
+    padding: 5px;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
